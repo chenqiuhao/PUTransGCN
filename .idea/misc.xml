@@ -5,5 +5,5 @@
     <option name="pathToExecutable" value="D:\software\anaconda3\Scripts\black.exe" />
     <option name="sdkName" value="dl" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="dl" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="PUTransGCN" project-jdk-type="Python SDK" />
 </project>
