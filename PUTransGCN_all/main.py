@@ -237,4 +237,4 @@ for i in range(5):
     max_allocated_memory = torch.cuda.max_memory_allocated()
     print(f"最大已分配内存量: {max_allocated_memory / 1024 ** 2} MB")
 
-logger.save("PUTransGCN")
+logger.save("PUTransGCN_all")
