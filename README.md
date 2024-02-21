@@ -23,7 +23,7 @@ pip install gensim==4.3.1
 pip install tqdm==4.65.0
 pip install jupyterlab==3.6.3
 pip install matplotlib==3.8.2
-pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
 pip install https://data.pyg.org/whl/torch-2.1.0%2Bcu118/torch_cluster-1.6.2%2Bpt21cu118-cp310-cp310-win_amd64.whl
 pip install https://data.pyg.org/whl/torch-2.1.0%2Bcu118/torch_scatter-2.1.2%2Bpt21cu118-cp310-cp310-win_amd64.whl
 pip install https://data.pyg.org/whl/torch-2.1.0%2Bcu118/torch_sparse-0.6.18%2Bpt21cu118-cp310-cp310-win_amd64.whl
@@ -32,19 +32,18 @@ pip install torch-geometric
 ```
 # Folder structure
 
-                                 Usage
 - data
-	- adj.csv                    adjacent matrix
-	- p2p_smith.csv              piRNA sequence similarity based on Simith-Waterman
-	- d2d_do.csv                 disease semantic similarity
+	- adj.csv *(adjacent matrix)*
+	- p2p_smith.csv *piRNA sequence similarity based on Simith-Waterman*
+	- d2d_do.csv *disease semantic similarity*
 	- piRNA_seq.csv              piRNA sequence information obtained from several databases
 	- doid.csv                   disease DO id
 	- gensim_feat_128.npy        piRNA sequence feature obtained by `gen_pfeat_gensim.py`
 	- database                   piRNA sequence databases
 		- Homo_sapiens.fasta
 		- hsa.v3.0.fa
-		...
-	...
+		- ...
+	- ...
 - PUTransGCN_spy
 	- gen_rn_ij.py               select reliable negative associations
 	- model.py
@@ -57,7 +56,7 @@ pip install torch-geometric
 	- main.py
 	- PUTransGCN_comb_5.xlsx
 	- PUTransGCN_model.pt        model trained weight
-...
+- ...
 
 # Instruction
 `tutorial.ipynb` gives an instruction to run PUTransGCN and reproduce result
