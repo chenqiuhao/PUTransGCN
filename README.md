@@ -46,15 +46,15 @@ pip install torch-geometric
 	- ...
 - PUTransGCN_spy
 	- gen_rn_ij.py (*select reliable negative associations*)
-	- model.py
-	- utils.py
+	- model.py (*model architecture*)
+	- utils.py (*utility function*)
 	- main.py
 	- PUTransGCN_spy.xlsx (*five-fold cross-validation result*)
 - PUTransGCN_comb_5 (*pu_bagging + two_step + 5% spy*)
-	- model.py
-	- utils.py
+	- model.py (*model architecture*)
+	- utils.py (*utility function*)
 	- main.py
-	- PUTransGCN_comb_5.xlsx
+	- PUTransGCN_comb_5.xlsx (*five-fold cross-validation result*)
 	- PUTransGCN_model.pt (*model trained weight*)
 - ...
 
