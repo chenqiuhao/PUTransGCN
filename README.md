@@ -45,7 +45,7 @@ ${DATA_ROOT}
 ├── comparison
 │   ├── data (*MNDR v4.0 dataset*)
 │   │   ├──adj.csv *(adjacent matrix)*
-│   │   ├──p2p_smith.csv (*piRNA sequence similarity based on Simith-Waterman*)
+│   │   ├──p2p_smith.csv (*piRNA sequence similarity based on Smith-Waterman*)
 │   │   ├──d2d_do.csv (*disease semantic similarity*)
 │   │   ├──piRNA_seq.csv (*piRNA sequence information obtained from several databases*)
 │   │   ├──doid.csv (*disease DO id*)
