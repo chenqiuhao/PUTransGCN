@@ -10,7 +10,7 @@ PUTransGCN is a deep learning model for predicting piRNA-disease associations.
 # Getting Started
 
 ## Installation
-Setup conda enviornment:
+Setup conda environment:
 ```
 conda create -n PUTransGCN python=3.10 -y
 conda activate PUTransGCN
