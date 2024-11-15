@@ -1,6 +1,6 @@
 # PUTransGCN: identiﬁcation of piRNA-disease associations based on attention encoding graph convolutional network and positive unlabelled learning
 
-This repository contains the code for the paper: [PUTransGCN: identiﬁcation of piRNA-disease associations based on attention encoding graph convolutional network and positive unlabelled learning]().
+This repository contains the code for the paper: [PUTransGCN: identiﬁcation of piRNA-disease associations based on attention encoding graph convolutional network and positive unlabelled learning](https://academic.oup.com/bib/article/25/3/bbae144/7641191).
 
 PUTransGCN is a deep learning model for predicting piRNA-disease associations.
 
@@ -39,7 +39,7 @@ pip install torch-geometric
 
 # Prepare Datasets
 
-Please download the raw data from https://zenodo.org/records/10686038
+Please download the raw data from https://zenodo.org/records/13864669
 ```
 ${DATA_ROOT}
 ├── comparison
